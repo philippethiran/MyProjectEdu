@@ -54,10 +54,13 @@ def for_search_even_good(numbers):
     while (pos < len(numbers)-1) and (not found):
         if numbers[pos] % 2 == 0:
             found = True
-        pos +=1
+        pos += 1
 
     if found:
         print("\nEven Value Encountered.")
+
+
+
 
 
 if __name__ == '__main__':
