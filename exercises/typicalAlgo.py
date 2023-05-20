@@ -19,10 +19,8 @@ def element_found_sequential_ordered(num, l_input):
 
 
 def element_found_binary_search(target,  l_input, low, high):
-    # Second algo: binary search: see here for more info: https://en.wikipedia.org/wiki/Binary_search_algorithm
+    # Second algo: binary search - recursive approach: see here for more info: https://en.wikipedia.org/wiki/Binary_search_algorithm
     # Return the position of the found element; -1 if not found
-    print("high" + str(high))
-    print("low" + str(low))
     if high >= 1:
         mid = (low + high) // 2  # integer division
         if target == l_input[mid]:  # Base condition (target value is found)
@@ -46,7 +44,7 @@ if __name__ == '__main__':
 
     # Find an element in a list:
     l = [5, 9, 7, 13, 15, 1, 11]
-    n = 13
+    n = 6
     if element_found_sequential_ordered(n, l):
         print("found")
     else:
