@@ -1,7 +1,7 @@
 # Here, you will find some interesting consequence of immutable or mutable types
 
 # Compare search_element_1 and search_element_2 and search_element_3
-# l_input is a list and used as a parameter of the function. As a list is immutable, this implicitly implies that
+# l_input is a list and used as a parameter of the function. As a list is mutable, this implicitly implies that
 # the list is passed by reference! Hence, if you modify it within the function,
 # the modification will be applied everywhere
 
