@@ -6,4 +6,4 @@ miles = Dog("Miles", 4, "Bulldog")
 print("Firt dog:"+ buddy.name)
 print(buddy.description())
 
-print(buddy)
+print(buddy) 
