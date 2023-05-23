@@ -11,7 +11,6 @@ class Dog:
     def description(self):
         return f"{self.name} is {self.age} years old"
 
-
     # Another instance method
     def speak(self, sound):
         return f"{self.name} says {sound}"
@@ -19,3 +18,9 @@ class Dog:
     # Replace .description() with __str__()
     def __str__(self):
         return f"{self.name} is {self.age} years old"
+
+
+# Exemple of a class inheritance and a subclass extending a superclass
+class JackRussellTerrier(Dog):
+    def speak(self, sound="Arf"):
+        return f"{self.name} says {sound}"
